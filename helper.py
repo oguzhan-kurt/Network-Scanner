@@ -50,3 +50,7 @@ def mac_to_binary(mac_addr):
 def beauty_mac_address(mac_addr):
     mac = [mac_addr[i:i + 2] for i in range(0, len(mac_addr), 2)]
     return ":".join(map(str, mac)).upper()
+
+
+if __name__ == "__main__":
+    pass
